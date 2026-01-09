@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>self_internet</title>
+    <style>
+      body {
+        margin: 0px;
+        height: 100vh;
+        background-color: #eee;
+      }
+      .flex {
+        display: flex;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .baise {
+        background-color: white;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .vertical-text {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+      }
+    </style>
+  </head>
+  <body class="flex column">
+    <!-- 头部 -->
+    <div
+      style="
+        height: 150px;
+        /* width: 100vh; */
+        border-bottom: 1px solid rgb(182, 33, 202);
+
+        margin: 0;
+        z-index: 1;
+      "
+      class="flex column"
+    >
+      <img
+        src="D:\download\htmlstudy\古灵精怪的花火大人.png"
+        alt="Smiley face"
+        height="125px"
+        width="auto"
+      />
+    </div>
+    <!-- 内容区 -->
+    <div class="flex flex1 column">
+      <!-- 剧目类型 -->
+      <div
+        style="
+          /* height: 100px; */
+          margin: 5px 10px;
+          flex: 2;
+
+          border: 1px solid green;
+        "
+        class="flex baise"
+      >
+        <div
+          class="flex"
+          style="color: rgb(72, 232, 232); font-size: 25px; flex: 1; gap: 20px"
+        >
+          <div
+            class="flex vertical-text"
+            style="justify-content: center; letter-spacing: 50px"
+          >
+            完美
+          </div>
+          <div class="vertical-text">这才是我想要的效果</div>
+        </div>
+        <!-- 类别，写8个，2行 -->
+        <div
+          class="flex column"
+          style="color: rgb(72, 232, 232); font-size: 25px; flex: 3"
+        >
+          <div class="flex flex1">
+            <div style="margin: 25px; margin-top: 25px; flex: 1">电影</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">综艺</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">电视剧</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">动漫</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">纪录片</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">鬼畜</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">娱乐</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">游戏</div>
+          </div>
+          <div class="flex flex1">
+            <div style="margin: 25px; margin-top: 25px; flex: 1">美食</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">探险</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">动物</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">知识</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">影视</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">音乐</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">舞蹈</div>
+            <div style="margin: 25px; margin-top: 25px; flex: 1">资讯</div>
+          </div>
+        </div>
+      </div>
+      <!-- 节目 -->
+      <div style="flex: 5; background-color: blueviolet" class="flex">
+        <!-- 内容1 -->
+        <div
+          style="flex: 3; justify-content: center; align-items: center"
+          class="flex"
+        >
+          <img
+            src="D:\download\htmlstudy\两个枪手大合照.png"
+            alt="Smiley face"
+            width="500px"
+            height="250px"
+          />
+        </div>
+
+        <div style="margin: 25px" class="flex flex1 column">
+          <div class="flex">
+            <img
+              src="D:\download\htmlstudy\腿.png"
+              alt="logo"
+              width="150px"
+              height="115px"
+            />
+          </div>
+          <div style="margin-top: 20px" class="flex">
+            <img
+              src="D:\download\htmlstudy\流萤的校服风.png"
+              alt="logo"
+              width="150px"
+              height="115px"
+            />
+          </div>
+        </div>
+        <div style="margin: 25px" class="flex flex1 column">
+          <div class="flex">
+            <img
+              src="D:\download\htmlstudy\腿.png"
+              alt="logo"
+              width="150px"
+              height="115px"
+            />
+          </div>
+          <div style="margin-top: 20px" class="flex">
+            <img
+              src="D:\download\htmlstudy\流萤的校服风.png"
+              alt="logo"
+              width="150px"
+              height="115px"
+            />
+          </div>
+        </div>
+        <div style="margin: 25px" class="flex flex1 column">
+          <div class="flex">
+            <img
+              src="D:\download\htmlstudy\腿.png"
+              alt="logo"
+              width="150px"
+              height="115px"
+            />
+          </div>
+          <div style="margin-top: 20px" class="flex">
+            <img
+              src="D:\download\htmlstudy\流萤的校服风.png"
+              alt="logo"
+              width="150px"
+              height="115px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
